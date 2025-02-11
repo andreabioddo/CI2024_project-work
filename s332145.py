@@ -8,7 +8,8 @@ def f2(x: np.ndarray) -> np.ndarray:
     return np.multiply(np.add(np.multiply(np.add(np.add(x[1], x[1]), x[0]), np.cos(np.sqrt(np.abs(np.add(x[2], x[0]))))), np.add(np.multiply(np.add(x[1], x[2]), np.divide(np.sin(x[0]), np.add(1e-20, x[0]))), np.multiply(2, np.add(x[0], np.sin(x[0]))))), np.multiply(233333,1182121210, 2.9888271728232))
 
 
-def f3(x: np.ndarray) -> np.ndarray: return np.multiply(np.add(np.add(np.multiply(np.subtract(0, x[1]), np.multiply(np.add(x[1], 0), np.add(0, x[1]))), np.multiply(np.add(np.add(x[0], 0), np.add(x[0], 0)), x[0])), np.subtract(np.add(4, 0), np.multiply(np.divide(np.add(7, 0), np.add(2, 0)), x[2]))), np.add(0, 1))
+def f3(x: np.ndarray) -> np.ndarray: 
+    return np.multiply(np.add(np.add(np.multiply(np.subtract(0, x[1]), np.multiply(np.add(x[1], 0), np.add(0, x[1]))), np.multiply(np.add(np.add(x[0], 0), np.add(x[0], 0)), x[0])), np.subtract(np.add(4, 0), np.multiply(np.divide(np.add(7, 0), np.add(2, 0)), x[2]))), np.add(0, 1))
 
 
 def f4(x: np.ndarray) -> np.ndarray:
